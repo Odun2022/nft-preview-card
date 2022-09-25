@@ -42,11 +42,9 @@ main {
     width: 19em;
     background-image: url(images/image-equilibrium.jpg);
     background-size: cover;
-    /* background-position: center; */
     justify-self: center;
     border-radius: 10px;
 }
-
 
 .card-img-container::after{
     content: '';
@@ -61,14 +59,13 @@ main {
     top: 0;
     border-radius: 10px;
     cursor: pointer;
-    transition: 1s all ease-in-out;
+    transition: .8s all ease-in-out;
 }
+
 .card-img-container:hover:after{
-    
     opacity: 1;
-    
-    
 }
+
 .text {
     color: var(--White);
     font-size: 16px;
